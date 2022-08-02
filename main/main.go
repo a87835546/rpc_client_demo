@@ -4,6 +4,7 @@ import (
 	"fmt"
 	"github.com/kataras/iris/v12"
 	"net/rpc"
+	_ "rpc_client_demo/app"
 )
 
 type User struct {
